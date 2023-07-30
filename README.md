@@ -16,4 +16,6 @@ Open GetMousePosition.py in your editor of choice and change the RunADPos, ReadC
 
 Run: `python index.py` and it should work if not make an issue and I'll try to resolve it as soon as I can.
 
+You can check if the positions if you add the numbers into the TestPositons.py file and running: `python TestPositions.py`
+
 Enjoy!
