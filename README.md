@@ -4,6 +4,8 @@ A simple collection of script that streams for you on the Dank Memer Discord bot
 
 ## Tutorial
 
+Run: `git clone https://github.com/Endlord15/dank-memer-auto-streamer.git`
+
 Start your stream
 
 Run: `python GetMousePosition.py`
