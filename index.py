@@ -1,6 +1,7 @@
 from pynput.mouse import Controller, Button
 import time
 import random
+
 # Sets mouse as a variable to Controller()
 mouse = Controller()
 
@@ -18,16 +19,16 @@ while True:
 
     # Waits 10 minutes to move mouse to random button and click it
     time.sleep(600)
-    button = random.randint(1,3)
+    button = random.randint(1, 3)
     if button == 1:
         mouse.position = (RunADPos, 1000)
-        time.sleep(.3)
+        time.sleep(0.3)
         mouse.click(Button.left, 1)
     elif button == 2:
         mouse.position = (ReadChatPos, 1000)
-        time.sleep(.3)
+        time.sleep(0.3)
         mouse.click(Button.left, 1)
     elif button == 3:
         mouse.position = (CollectDonationsPos, 1000)
-        time.sleep(.3)
+        time.sleep(0.3)
         mouse.click(Button.left, 1)
