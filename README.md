@@ -1,6 +1,6 @@
 # Dank Memer Auto Streamer for Discord
 
-A simple script that streams for you on the Dank Memer Discord bot
+A simple collection of script that streams for you on the Dank Memer Discord bot.
 
 ## Tutorial
 
