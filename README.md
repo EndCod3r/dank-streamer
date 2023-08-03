@@ -2,22 +2,26 @@
 
 A simple collection of script that streams for you on the Dank Memer Discord bot.
 
+⚠️ DISCLAIMER: I'm not responsible for any damage done with this script! Including being banned from Dank Memer or the mouse being controlled when you don't want it to!
+
 ## Tutorial
 
-Run: `git clone https://github.com/Endlord15/dank-memer-auto-streamer.git`
+Run:
 
-Start your stream
+```
+git clone https://github.com/Endlord15/dank-memer-auto-streamer.git
+cd ./dank-memer-auto-streamer
+pip3 install -r requirements.txt
+```
 
-Run: `python GetMousePosition.py`
+Start your stream and click the Read Chat Button.
 
-Hover over each of the buttons Run AD, Read Chat, and Collect Donations for 5 seconds each
+Run:
 
-You should see three sets of numbers
+```
+python index.py
+```
 
-Open GetMousePosition.py in your editor of choice and change the RunADPos, ReadChatPos, and CollectDonationsPos variables to the first number of the position of the buttons.
-
-Run: `python index.py` and it should work if not make an issue and I'll try to resolve it as soon as I can.
-
-You can check if the positions if you add the numbers into the TestPositons.py file and running: `python TestPositions.py`
+Hover over each of the buttons Run AD, Read Chat, Collect Donations, and Dismiss message buttons for 5 seconds each.
 
 Enjoy!
