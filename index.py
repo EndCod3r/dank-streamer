@@ -5,10 +5,25 @@ import random
 # Sets mouse as a variable to Controller()
 mouse = Controller()
 
-DismissMessagePos = (2000, 1000)
-RunADPos = (2000, 1000)
-ReadChatPos = (2000, 1000)
-CollectDonationsPos = (2000, 1000)
+# Gets the positions for each button
+print("Hover over Run AD Button in less than 5 seconds.")
+time.sleep(5)
+RunADPos = mouse.position
+print("Hover over Read Chat Button in less than 5 seconds.")
+time.sleep(5)
+ReadChatPos = mouse.position
+print("Hover over Collect Donations Button in less than 5 seconds.")
+time.sleep(5)
+CollectDonationsPos = mouse.position
+print(
+    "Hover over the Dismiss Message Button in Discord by clicking one of the buttons in less than 5 seconds."
+)
+time.sleep(5)
+DismissMessagePos = mouse.position
+
+print("Open Discord in less than 5 seconds and start streaming.")
+time.sleep(5)
+
 
 # Makes a infinite loop for auto streaming.
 while True:
