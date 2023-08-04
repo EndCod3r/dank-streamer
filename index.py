@@ -1,5 +1,10 @@
+# Imports Controller and Button from pynput.mouse
 from pynput.mouse import Controller, Button
+
+# Imports time to make a sleep timer
 import time
+
+# Imports random to generate a random number
 import random
 
 # Sets mouse as a variable to Controller()
