@@ -2,7 +2,8 @@
 
 A simple collection of script that streams for you on the Dank Memer Discord bot.
 
-⚠️ DISCLAIMER: I'm not responsible for any damage done with this script! Including being banned from Dank Memer or the mouse being controlled when you don't want it to!
+> [!WARNING]  
+> I'm not responsible for any damage done with this script! Including being banned from Dank Memer and the mouse being controlled when you don't want it to.
 
 ## Tutorial
 
